@@ -1,0 +1,52 @@
+@use "../utils/mixins" as *;
+
+@include breakpoint("tablet") {
+   .newsletter,
+   .success {
+      max-width: 33rem;
+   }
+}
+
+@include breakpoint("desktop") {
+   body {
+      background-color: var(--color-bg);
+   }
+
+   .newsletter {
+      flex-direction: row-reverse;
+      justify-content: center;
+
+      padding: var(--spacing-sm);
+      max-width: fit-content;
+
+      border-radius: 1rem;
+
+      &__content,
+      &__header {
+         gap: var(--spacing-md);
+      }
+
+      &__content {
+         max-width: 30rem;
+         padding: var(--spacing-xxl) var(--spacing-xl) var(--spacing-xl)
+            var(--spacing-lg);
+      }
+
+      &__list {
+         gap: var(--spacing-sm);
+      }
+   }
+
+   .form {
+      gap: var(--spacing-md);
+   }
+
+   .success {
+      margin-top: unset;
+      min-height: unset;
+      border-radius: 1rem;
+      max-width: 30rem;
+      padding: var(--spacing-xl);
+      gap: var(--spacing-lg);
+   }
+}

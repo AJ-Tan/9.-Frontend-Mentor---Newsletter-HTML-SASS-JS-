@@ -1,0 +1,43 @@
+.newsletter {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--color-surface);
+
+   &.is-hidden {
+      display: none;
+   }
+
+   &__content,
+   &__header {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-sm);
+   }
+
+   &__content {
+      padding: var(--spacing-lg) var(--spacing-md);
+   }
+
+   &__item {
+      display: flex;
+      gap: var(--spacing-sm);
+   }
+
+   &__list {
+      display: grid;
+      gap: var(--spacing-xs);
+   }
+
+   &__item span {
+      display: inline-block;
+   }
+
+   &__item::before {
+      content: "";
+      background: url(../../assets/images/icon-list.svg) no-repeat center center;
+      display: inline-block;
+      width: 1.3125rem;
+      height: 1.3125rem;
+      flex-shrink: 0;
+   }
+}

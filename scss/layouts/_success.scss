@@ -1,0 +1,25 @@
+.success {
+   display: none;
+   background-color: var(--color-surface);
+
+   grid-template-rows: auto auto auto 1fr;
+   align-content: start;
+   gap: var(--spacing-sm);
+
+   margin-top: 12vh;
+   min-height: 85vh;
+   padding: var(--spacing-lg) var(--spacing-md);
+
+   &.is-visible {
+      display: grid;
+   }
+
+   &__image {
+      margin-bottom: var(--spacing-sm);
+      width: 4rem;
+   }
+
+   &__button-wrapper {
+      align-self: end;
+   }
+}

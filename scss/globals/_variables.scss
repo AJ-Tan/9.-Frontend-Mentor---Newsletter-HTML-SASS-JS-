@@ -1,0 +1,20 @@
+:root {
+   --color-primary-1: hsl(346, 100%, 66%);
+   --color-primary-2: hsl(4, 100%, 67%);
+   --color-error-accent: rgba(255, 45, 94, 1);
+   --color-error-bg: rgba(255, 45, 94, 0.1);
+   --color-accent: hsl(234, 29%, 20%);
+   --color-bg: hsl(235, 18%, 26%);
+   --color-neutral-1: hsl(0, 0%, 0%);
+   --color-neutral-2: hsl(0, 0%, 58%);
+   --color-surface: hsl(0, 0%, 100%);
+   --color-shadow: rgba(255, 4, 63, 0.3);
+
+   --spacing-xs: 0.5rem;
+   --spacing-sm: 1rem;
+   --spacing-md: 1.5rem;
+   --spacing-lg: 2rem;
+   --spacing-lg-2: 2.5rem;
+   --spacing-xl: 3rem;
+   --spacing-xxl: 4rem;
+}

@@ -1,0 +1,13 @@
+@use "../utils/mixins" as *;
+
+main {
+   display: grid;
+   place-content: center;
+   min-height: 97vh;
+}
+
+.newsletter,
+.success {
+   margin-inline: auto;
+   max-width: 23.4375rem;
+}
