@@ -35,19 +35,19 @@ class EventListener {
 
    isFormDataValid(formData) {
       const formEntries = Object.fromEntries(formData);
-
+      let isValid = true;
       //if (!email || !validator.isEmail(email)) return false;
       for (const key in formEntries) {
          const inputElement = document.getElementById(key);
          if(!this.validateData(formEntries[key], inputElement.type)) {
             inputElement.parentNode.classList.add('is-invalid');
-            return false;
+            isValid = false;
          } else {
             inputElement.parentNode.classList.remove('is-invalid');
          }
       }
 
-      return true;
+      return isValid;
    }
 
    validateData(data, dataType) {
