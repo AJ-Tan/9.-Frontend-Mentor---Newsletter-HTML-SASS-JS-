@@ -39,12 +39,12 @@
       line-height: 1;
    }
 
-   &__input:user-invalid {
+   &__group.is-invalid &__input {
       background-color: var(--color-error-bg);
       border-color: var(--color-error-accent);
    }
 
-   &__group-label:has(+ &__input:user-invalid) &__label-error {
+   &__group.is-invalid &__label-error {
       display: inline-block;
    }
 }
