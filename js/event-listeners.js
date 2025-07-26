@@ -1,6 +1,5 @@
 class EventListener {
    #form = null;
-   #element = null;
    #initialElement = null;
    #toggleElement = null;
 
