@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 -  Solution URL: [GitHub Repository](https://github.com/AJ-Tan/9.-Frontend-Mentor---Newsletter-HTML-SASS-JS-.git)
--  Live Site URL: [Add live site URL here](https://aj-tan.github.io/9.-Frontend-Mentor---Newsletter-HTML-SASS-JS-/)
+-  Live Site URL: [GitHub Pages](https://aj-tan.github.io/9.-Frontend-Mentor---Newsletter-HTML-SASS-JS-/)
 
 ## My process
 
